@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		585800601C9A85950009E225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858005F1C9A85950009E225 /* main.m */; };
+		585800631C9A85950009E225 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800621C9A85950009E225 /* AppDelegate.m */; };
+		5858006B1C9A85950009E225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5858006A1C9A85950009E225 /* Assets.xcassets */; };
+		5858006E1C9A85950009E225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5858006C1C9A85950009E225 /* LaunchScreen.storyboard */; };
+		585800791C9A85950009E225 /* ZK3DPopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800781C9A85950009E225 /* ZK3DPopTests.m */; };
+		585800841C9A85950009E225 /* ZK3DPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800831C9A85950009E225 /* ZK3DPopUITests.m */; };
+		585800951C9A861C0009E225 /* ZKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800931C9A861C0009E225 /* ZKMainViewController.m */; };
+		585800961C9A861C0009E225 /* ZKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585800941C9A861C0009E225 /* ZKMainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585800751C9A85950009E225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585800531C9A85950009E225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5858005A1C9A85950009E225;
+			remoteInfo = ZK3DPop;
+		};
+		585800801C9A85950009E225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585800531C9A85950009E225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5858005A1C9A85950009E225;
+			remoteInfo = ZK3DPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5858005B1C9A85950009E225 /* ZK3DPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZK3DPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5858005F1C9A85950009E225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		585800611C9A85950009E225 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		585800621C9A85950009E225 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5858006A1C9A85950009E225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5858006D1C9A85950009E225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5858006F1C9A85950009E225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585800741C9A85950009E225 /* ZK3DPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZK3DPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585800781C9A85950009E225 /* ZK3DPopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZK3DPopTests.m; sourceTree = "<group>"; };
+		5858007A1C9A85950009E225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5858007F1C9A85950009E225 /* ZK3DPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZK3DPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585800831C9A85950009E225 /* ZK3DPopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZK3DPopUITests.m; sourceTree = "<group>"; };
+		585800851C9A85950009E225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585800921C9A861C0009E225 /* ZKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMainViewController.h; sourceTree = "<group>"; };
+		585800931C9A861C0009E225 /* ZKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMainViewController.m; sourceTree = "<group>"; };
+		585800941C9A861C0009E225 /* ZKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKMainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585800581C9A85950009E225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585800711C9A85950009E225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5858007C1C9A85950009E225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		585800521C9A85950009E225 = {
+			isa = PBXGroup;
+			children = (
+				5858005D1C9A85950009E225 /* ZK3DPop */,
+				585800771C9A85950009E225 /* ZK3DPopTests */,
+				585800821C9A85950009E225 /* ZK3DPopUITests */,
+				5858005C1C9A85950009E225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5858005C1C9A85950009E225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5858005B1C9A85950009E225 /* ZK3DPop.app */,
+				585800741C9A85950009E225 /* ZK3DPopTests.xctest */,
+				5858007F1C9A85950009E225 /* ZK3DPopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5858005D1C9A85950009E225 /* ZK3DPop */ = {
+			isa = PBXGroup;
+			children = (
+				585800611C9A85950009E225 /* AppDelegate.h */,
+				585800621C9A85950009E225 /* AppDelegate.m */,
+				585800911C9A85F10009E225 /* Classes */,
+				5858005E1C9A85950009E225 /* Supporting Files */,
+			);
+			path = ZK3DPop;
+			sourceTree = "<group>";
+		};
+		5858005E1C9A85950009E225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5858006A1C9A85950009E225 /* Assets.xcassets */,
+				5858006C1C9A85950009E225 /* LaunchScreen.storyboard */,
+				5858006F1C9A85950009E225 /* Info.plist */,
+				5858005F1C9A85950009E225 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		585800771C9A85950009E225 /* ZK3DPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				585800781C9A85950009E225 /* ZK3DPopTests.m */,
+				5858007A1C9A85950009E225 /* Info.plist */,
+			);
+			path = ZK3DPopTests;
+			sourceTree = "<group>";
+		};
+		585800821C9A85950009E225 /* ZK3DPopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				585800831C9A85950009E225 /* ZK3DPopUITests.m */,
+				585800851C9A85950009E225 /* Info.plist */,
+			);
+			path = ZK3DPopUITests;
+			sourceTree = "<group>";
+		};
+		585800911C9A85F10009E225 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				585800921C9A861C0009E225 /* ZKMainViewController.h */,
+				585800931C9A861C0009E225 /* ZKMainViewController.m */,
+				585800941C9A861C0009E225 /* ZKMainViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5858005A1C9A85950009E225 /* ZK3DPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585800881C9A85950009E225 /* Build configuration list for PBXNativeTarget "ZK3DPop" */;
+			buildPhases = (
+				585800571C9A85950009E225 /* Sources */,
+				585800581C9A85950009E225 /* Frameworks */,
+				585800591C9A85950009E225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZK3DPop;
+			productName = ZK3DPop;
+			productReference = 5858005B1C9A85950009E225 /* ZK3DPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		585800731C9A85950009E225 /* ZK3DPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5858008B1C9A85950009E225 /* Build configuration list for PBXNativeTarget "ZK3DPopTests" */;
+			buildPhases = (
+				585800701C9A85950009E225 /* Sources */,
+				585800711C9A85950009E225 /* Frameworks */,
+				585800721C9A85950009E225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585800761C9A85950009E225 /* PBXTargetDependency */,
+			);
+			name = ZK3DPopTests;
+			productName = ZK3DPopTests;
+			productReference = 585800741C9A85950009E225 /* ZK3DPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5858007E1C9A85950009E225 /* ZK3DPopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5858008E1C9A85950009E225 /* Build configuration list for PBXNativeTarget "ZK3DPopUITests" */;
+			buildPhases = (
+				5858007B1C9A85950009E225 /* Sources */,
+				5858007C1C9A85950009E225 /* Frameworks */,
+				5858007D1C9A85950009E225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585800811C9A85950009E225 /* PBXTargetDependency */,
+			);
+			name = ZK3DPopUITests;
+			productName = ZK3DPopUITests;
+			productReference = 5858007F1C9A85950009E225 /* ZK3DPopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585800531C9A85950009E225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZK;
+				TargetAttributes = {
+					5858005A1C9A85950009E225 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					585800731C9A85950009E225 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5858005A1C9A85950009E225;
+					};
+					5858007E1C9A85950009E225 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5858005A1C9A85950009E225;
+					};
+				};
+			};
+			buildConfigurationList = 585800561C9A85950009E225 /* Build configuration list for PBXProject "ZK3DPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 585800521C9A85950009E225;
+			productRefGroup = 5858005C1C9A85950009E225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5858005A1C9A85950009E225 /* ZK3DPop */,
+				585800731C9A85950009E225 /* ZK3DPopTests */,
+				5858007E1C9A85950009E225 /* ZK3DPopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585800591C9A85950009E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5858006E1C9A85950009E225 /* LaunchScreen.storyboard in Resources */,
+				5858006B1C9A85950009E225 /* Assets.xcassets in Resources */,
+				585800961C9A861C0009E225 /* ZKMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585800721C9A85950009E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5858007D1C9A85950009E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585800571C9A85950009E225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585800631C9A85950009E225 /* AppDelegate.m in Sources */,
+				585800601C9A85950009E225 /* main.m in Sources */,
+				585800951C9A861C0009E225 /* ZKMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585800701C9A85950009E225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585800791C9A85950009E225 /* ZK3DPopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5858007B1C9A85950009E225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585800841C9A85950009E225 /* ZK3DPopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585800761C9A85950009E225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5858005A1C9A85950009E225 /* ZK3DPop */;
+			targetProxy = 585800751C9A85950009E225 /* PBXContainerItemProxy */;
+		};
+		585800811C9A85950009E225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5858005A1C9A85950009E225 /* ZK3DPop */;
+			targetProxy = 585800801C9A85950009E225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5858006C1C9A85950009E225 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5858006D1C9A85950009E225 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		585800861C9A85950009E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		585800871C9A85950009E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585800891C9A85950009E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZK3DPop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZK3DPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5858008A1C9A85950009E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZK3DPop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZK3DPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5858008C1C9A85950009E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZK3DPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZK3DPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZK3DPop.app/ZK3DPop";
+			};
+			name = Debug;
+		};
+		5858008D1C9A85950009E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZK3DPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZK3DPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZK3DPop.app/ZK3DPop";
+			};
+			name = Release;
+		};
+		5858008F1C9A85950009E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZK3DPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZK3DPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZK3DPop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		585800901C9A85950009E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZK3DPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoolai.ZK3DPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZK3DPop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585800561C9A85950009E225 /* Build configuration list for PBXProject "ZK3DPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585800861C9A85950009E225 /* Debug */,
+				585800871C9A85950009E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585800881C9A85950009E225 /* Build configuration list for PBXNativeTarget "ZK3DPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585800891C9A85950009E225 /* Debug */,
+				5858008A1C9A85950009E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5858008B1C9A85950009E225 /* Build configuration list for PBXNativeTarget "ZK3DPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5858008C1C9A85950009E225 /* Debug */,
+				5858008D1C9A85950009E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5858008E1C9A85950009E225 /* Build configuration list for PBXNativeTarget "ZK3DPopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5858008F1C9A85950009E225 /* Debug */,
+				585800901C9A85950009E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 585800531C9A85950009E225 /* Project object */;
+}
