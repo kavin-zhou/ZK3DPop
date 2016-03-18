@@ -15,6 +15,9 @@
 		585800841C9A85950009E225 /* ZK3DPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800831C9A85950009E225 /* ZK3DPopUITests.m */; };
 		585800951C9A861C0009E225 /* ZKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800931C9A861C0009E225 /* ZKMainViewController.m */; };
 		585800961C9A861C0009E225 /* ZKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585800941C9A861C0009E225 /* ZKMainViewController.xib */; };
+		5858009A1C9A880A0009E225 /* ZKPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800981C9A880A0009E225 /* ZKPopViewController.m */; };
+		5858009B1C9A880A0009E225 /* ZKPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585800991C9A880A0009E225 /* ZKPopViewController.xib */; };
+		585800A21C9A898A0009E225 /* ZKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800A11C9A898A0009E225 /* ZKConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		585800921C9A861C0009E225 /* ZKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMainViewController.h; sourceTree = "<group>"; };
 		585800931C9A861C0009E225 /* ZKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMainViewController.m; sourceTree = "<group>"; };
 		585800941C9A861C0009E225 /* ZKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKMainViewController.xib; sourceTree = "<group>"; };
+		585800971C9A880A0009E225 /* ZKPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPopViewController.h; sourceTree = "<group>"; };
+		585800981C9A880A0009E225 /* ZKPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPopViewController.m; sourceTree = "<group>"; };
+		585800991C9A880A0009E225 /* ZKPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKPopViewController.xib; sourceTree = "<group>"; };
+		585800A01C9A898A0009E225 /* ZKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKConfig.h; sourceTree = "<group>"; };
+		585800A11C9A898A0009E225 /* ZKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,11 +149,24 @@
 		585800911C9A85F10009E225 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5858009F1C9A898A0009E225 /* support */,
 				585800921C9A861C0009E225 /* ZKMainViewController.h */,
 				585800931C9A861C0009E225 /* ZKMainViewController.m */,
 				585800941C9A861C0009E225 /* ZKMainViewController.xib */,
+				585800971C9A880A0009E225 /* ZKPopViewController.h */,
+				585800981C9A880A0009E225 /* ZKPopViewController.m */,
+				585800991C9A880A0009E225 /* ZKPopViewController.xib */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		5858009F1C9A898A0009E225 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				585800A01C9A898A0009E225 /* ZKConfig.h */,
+				585800A11C9A898A0009E225 /* ZKConfig.m */,
+			);
+			path = support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +275,7 @@
 				5858006E1C9A85950009E225 /* LaunchScreen.storyboard in Resources */,
 				5858006B1C9A85950009E225 /* Assets.xcassets in Resources */,
 				585800961C9A861C0009E225 /* ZKMainViewController.xib in Resources */,
+				5858009B1C9A880A0009E225 /* ZKPopViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +303,8 @@
 				585800631C9A85950009E225 /* AppDelegate.m in Sources */,
 				585800601C9A85950009E225 /* main.m in Sources */,
 				585800951C9A861C0009E225 /* ZKMainViewController.m in Sources */,
+				5858009A1C9A880A0009E225 /* ZKPopViewController.m in Sources */,
+				585800A21C9A898A0009E225 /* ZKConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +522,7 @@
 				5858008A1C9A85950009E225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5858008B1C9A85950009E225 /* Build configuration list for PBXNativeTarget "ZK3DPopTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				5858008D1C9A85950009E225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5858008E1C9A85950009E225 /* Build configuration list for PBXNativeTarget "ZK3DPopUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				585800901C9A85950009E225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
