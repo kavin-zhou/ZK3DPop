@@ -23,7 +23,8 @@
     [self.window makeKeyAndVisible];
     
     ZKMainViewController *mainVC = [[ZKMainViewController alloc] init];
-    self.window.rootViewController = mainVC;
+    UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    self.window.rootViewController = naVC;
      // Override point for customization after application launch.
     return YES;
 }

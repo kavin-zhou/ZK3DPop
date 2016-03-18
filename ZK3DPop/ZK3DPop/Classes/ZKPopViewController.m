@@ -18,11 +18,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    CGRect frame = self.view.frame;
-    frame.size.height = ScreenHeight * 0.5;
-    frame.origin.y = ScreenHeight;
-    self.view.frame = frame;
+}
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        
+        CGRect frame = self.view.frame;
+        frame.size.height = ScreenHeight * 0.5;
+        frame.origin.y = ScreenHeight;
+        self.view.frame = frame;
+    }
+    return self;
 }
 
 @end
