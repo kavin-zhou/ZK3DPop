@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5810C7F01D3B6DAF00788BB7 /* ZKPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C7EF1D3B6DAF00788BB7 /* ZKPopView.m */; };
 		585800601C9A85950009E225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858005F1C9A85950009E225 /* main.m */; };
 		585800631C9A85950009E225 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800621C9A85950009E225 /* AppDelegate.m */; };
 		5858006B1C9A85950009E225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5858006A1C9A85950009E225 /* Assets.xcassets */; };
@@ -15,8 +16,6 @@
 		585800841C9A85950009E225 /* ZK3DPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800831C9A85950009E225 /* ZK3DPopUITests.m */; };
 		585800951C9A861C0009E225 /* ZKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800931C9A861C0009E225 /* ZKMainViewController.m */; };
 		585800961C9A861C0009E225 /* ZKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585800941C9A861C0009E225 /* ZKMainViewController.xib */; };
-		5858009A1C9A880A0009E225 /* ZKPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800981C9A880A0009E225 /* ZKPopViewController.m */; };
-		5858009B1C9A880A0009E225 /* ZKPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585800991C9A880A0009E225 /* ZKPopViewController.xib */; };
 		585800A21C9A898A0009E225 /* ZKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 585800A11C9A898A0009E225 /* ZKConfig.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5810C7EE1D3B6DAF00788BB7 /* ZKPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPopView.h; sourceTree = "<group>"; };
+		5810C7EF1D3B6DAF00788BB7 /* ZKPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPopView.m; sourceTree = "<group>"; };
 		5858005B1C9A85950009E225 /* ZK3DPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZK3DPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5858005F1C9A85950009E225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		585800611C9A85950009E225 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,9 +55,6 @@
 		585800921C9A861C0009E225 /* ZKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMainViewController.h; sourceTree = "<group>"; };
 		585800931C9A861C0009E225 /* ZKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMainViewController.m; sourceTree = "<group>"; };
 		585800941C9A861C0009E225 /* ZKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKMainViewController.xib; sourceTree = "<group>"; };
-		585800971C9A880A0009E225 /* ZKPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPopViewController.h; sourceTree = "<group>"; };
-		585800981C9A880A0009E225 /* ZKPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPopViewController.m; sourceTree = "<group>"; };
-		585800991C9A880A0009E225 /* ZKPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKPopViewController.xib; sourceTree = "<group>"; };
 		585800A01C9A898A0009E225 /* ZKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKConfig.h; sourceTree = "<group>"; };
 		585800A11C9A898A0009E225 /* ZKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5810C7ED1D3B6D9D00788BB7 /* ZKPopView */ = {
+			isa = PBXGroup;
+			children = (
+				5810C7EE1D3B6DAF00788BB7 /* ZKPopView.h */,
+				5810C7EF1D3B6DAF00788BB7 /* ZKPopView.m */,
+			);
+			path = ZKPopView;
+			sourceTree = "<group>";
+		};
 		585800521C9A85950009E225 = {
 			isa = PBXGroup;
 			children = (
@@ -149,13 +156,11 @@
 		585800911C9A85F10009E225 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5810C7ED1D3B6D9D00788BB7 /* ZKPopView */,
 				5858009F1C9A898A0009E225 /* support */,
 				585800921C9A861C0009E225 /* ZKMainViewController.h */,
 				585800931C9A861C0009E225 /* ZKMainViewController.m */,
 				585800941C9A861C0009E225 /* ZKMainViewController.xib */,
-				585800971C9A880A0009E225 /* ZKPopViewController.h */,
-				585800981C9A880A0009E225 /* ZKPopViewController.m */,
-				585800991C9A880A0009E225 /* ZKPopViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -275,7 +280,6 @@
 				5858006E1C9A85950009E225 /* LaunchScreen.storyboard in Resources */,
 				5858006B1C9A85950009E225 /* Assets.xcassets in Resources */,
 				585800961C9A861C0009E225 /* ZKMainViewController.xib in Resources */,
-				5858009B1C9A880A0009E225 /* ZKPopViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +307,7 @@
 				585800631C9A85950009E225 /* AppDelegate.m in Sources */,
 				585800601C9A85950009E225 /* main.m in Sources */,
 				585800951C9A861C0009E225 /* ZKMainViewController.m in Sources */,
-				5858009A1C9A880A0009E225 /* ZKPopViewController.m in Sources */,
+				5810C7F01D3B6DAF00788BB7 /* ZKPopView.m in Sources */,
 				585800A21C9A898A0009E225 /* ZKConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
