@@ -13,7 +13,6 @@
 
 @property (nonatomic, strong) UIButton    *maskView; //遮罩
 @property (nonatomic, strong) UIImageView *snapedImageView;
-@property (nonatomic, strong) UIView      *modalView;
 
 @end
 
@@ -40,7 +39,7 @@ static NSTimeInterval const kAnimateDuration = 0.28;
 
 - (void)setup
 {
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor blackColor];
     
     _maskView = [[UIButton alloc] init];
     _maskView.backgroundColor = [UIColor blackColor];

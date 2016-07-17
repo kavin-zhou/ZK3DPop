@@ -10,6 +10,8 @@
 
 @interface ZKPopView : UIView
 
+@property (nonatomic, strong) UIView *modalView;
+
 + (void)show;
 
 @end
